@@ -33,7 +33,7 @@ variable "versioning" {
 }
 variable "acl" {
     type        = string
-    description = " Defaults to private "
+    description = "Defaults to private "
     default     = "private"
 }
 variable "bucket_prefix" {
