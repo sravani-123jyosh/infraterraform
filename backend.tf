@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "hashtek-terraform-state-bucket-230424"
-    key = "main"
-    region = "us-east-1"
-    dynamodb_table = "hashtekTerraformStateLock"
+    bucket = "kitchu-project1"
+    key = "path/to/terraform.tfstate"
+    region = "ap-south-1"
+    dynamodb_table = "statelock"
   }
 }
